@@ -1,5 +1,6 @@
 def fizzbuzz(int)
   if int % 15 == 0
+    #  you have to put 15 at the top because the computer reads top to bottom, which is why numbers like 15 and 60 were getting Fizz (because they were divisible by 3 so Fizz was put first)
     "FizzBuzz"
    
     elsif int % 5 == 0 
